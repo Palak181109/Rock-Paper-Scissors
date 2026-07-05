@@ -1,0 +1,71 @@
+body{
+    background-color: cornsilk;
+}
+
+
+*{
+    text-align: center;
+}
+
+#container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.structure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5rem;
+
+}
+
+img{
+    border-radius: 50%;
+    width:90px;
+}
+
+.choice:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 5rem;
+    margin-top: 3rem;
+}
+
+p{
+    margin: 0;
+    font-weight: bold;
+}
+#user-score,#comp-score{
+    font-size: 44px;    
+}
+
+.msg-container{
+    margin-top: 3rem;
+}
+
+#text{
+    background-color: rgb(34, 30, 30);
+    color: white;
+    display: inline;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.msg-container:hover{
+    cursor: pointer;
+
+}
